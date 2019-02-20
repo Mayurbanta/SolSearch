@@ -15,7 +15,7 @@ namespace ProjSearch
 
             BinarySearch binarySearch = new BinarySearch();
             var a = binarySearch.BinarySearchIterative(sorteddarr, 7);
-
+            Console.WriteLine("Value is at position : " + a.ToString());
         }
 
         /// <summary>
